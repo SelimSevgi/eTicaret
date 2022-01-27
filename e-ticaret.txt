@@ -1,0 +1,9 @@
+npm init -y -> package.json oluşturuldu (main: server.js olarak değiştirildi.)
+mkdir frontend backend -> dosya klasörü oluşturuldu
+npm i express mongoose dotenv -> mongodb e bağlantı sağlanıyor
+npm i --save-dev nodemon concurrently -> frontend ve backend klasörünü ayrı ayrı çalıştırmaya yarar.
+cd frontend -> kurulan frontend dosya kısa yoluna giriyor.
+npx create-react-app . ->frontend üzerine react i tekrardan kuruyoruz.
+rm -rf .git -> git için hazırlama alanından ve çalışma dizinden dosyaları kaldrımak için kullanılır.
+(iki tane react oluştu. asıl kullanılan main i kullanmak için)
+*-gitignore klasorüne .env ekliyoruz.
